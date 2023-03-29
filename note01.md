@@ -1,6 +1,6 @@
 # Object Oriented Programming Notes 1
 
-I think OOP is awesome!
+I think OOP is awesome :D
 
 ```python
 # Example class
@@ -17,7 +17,3 @@ class Person:
 
 ```
 
-## Definitions
-    -Encapsulation
-    -Polymorphism
-    -Override
