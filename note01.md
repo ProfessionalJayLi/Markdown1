@@ -65,3 +65,7 @@ class Organ(Person):
     -Methods: functions or methods within the class
     -Attributes: Values the object's fields has
     -Fields: Variables that the class or object uses
+    -super(): refers to parent class instead of having to write the parent class name (it might be very long) and you don't have to have self in parameters
+    -__iter__(): makes object iterable
+    -__next__(): move to next index / value while iteration
+    
