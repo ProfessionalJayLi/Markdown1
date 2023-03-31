@@ -49,13 +49,19 @@ slime = Slime()
 goblin = Goblin()
 attacking(slime, goblin)
 print(goblin.hp) # prints out 20 instead of 25 cause the method worked
+
+# Example of Inheritance
+class Organ(Person):
+    def __init__(self, name, part):
+        Person.__init__(self, name)
+        self.organname = part
 ```
 
 ## Definitions
     -Encapsulation: uses __ prefix, protects data making it not accessible outside the class
     -Polymorphism: methods that different classes and objects and requires parameters
-    -Override: methods which use the same method name and parameters (variables needed)
-    -Inheritance
+    -Override: methods which use the same method name and parameters (variables needed). Works on built-in methods such as str and init.
+    -Inheritance: classes use other classes methods. There is single (one class uses a singular other class's methods), multiple (one class uses multiple other class methods, and multilevel (one class uses a different class's method which also uses a other class's method)
     -Methods: functions or methods within the class
     -Attributes: Values the object's fields has
     -Fields: Variables that the class or object uses
