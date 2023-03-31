@@ -18,6 +18,18 @@ class Person:
 ```
 
 ## Definitions
-    -Encapsulation
+    -Encapsulation: uses __ prefix, protects data making it not accessible outside the class
+     ```python
+     class Joe:
+    def __init__(self, name, last):
+        self.__name = name
+        self.lastName = last
+
+    joe = Joe("Joe", "Mama")
+    # print(joe.__name) would produce error because it was encapsulated
+    print(joe.lastName) # works because it wasn't incapsulated
+     
+     ```
     -Polymorphism
     -Override
+    -Inheritance
